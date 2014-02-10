@@ -1,0 +1,40 @@
+Lab2
+====
+
+
+Circuit Schematic for Full Adder:
+https://git
+hub.com/KevinJagoda/Lab2/blob/master/FullAdderCircuit.JPG
+
+
+Boolean for Full Adder:
+S = A xor B xor C
+Cout = AB + ACin + BCin
+
+
+Truth Table for Full Adder:
+Cin A B      Cout  S
+----------------------
+0   0 0      0     0
+0   0 1      0     1
+0   1 0      0     1
+0   1 1      1     0
+1   0 0      0     1
+1   0 1      1     0
+1   1 0      1     0
+1   1 1      1     1
+
+
+Full Adder:
+https://github.com/KevinJagoda/Lab2/blob/master/Full_Adder.vhd
+
+
+Full Adder testbench:
+https://github.com/KevinJagoda/Lab2/blob/master/Full_Adder_Testbench.vhd
+
+
+Simulation Picture:
+https://github.com/KevinJagoda/Lab2/blob/master/PreLab.JPG
+
+Simulation came out having the same results as the above truth table, 
+proving that the Full Adder vhd file is accurate.
