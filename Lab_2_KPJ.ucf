@@ -1,0 +1,21 @@
+# ====== Slide Switches =====
+
+NET "B(2)" LOC = "H18";
+NET "B(3)" LOC = "G18";
+NET "B(0)" LOC = "K17";
+NET "B(1)" LOC = "K18";
+NET "A(2)" LOC = "L13";
+NET "A(3)" LOC = "L14";
+NET "A(0)" LOC = "R17";
+NET "A(1)" LOC = "N17";
+
+# LED outputs constraints
+
+NET "Cout(0)" LOC = "R4";
+NET "Cout(1)" LOC = "F4";
+NET "Cout(2)" LOC = "P15";
+NET "Cout(3)" LOC = "E17";
+NET "S(0)" LOC = "K14";
+NET "S(1)" LOC = "K15";
+NET "S(2)" LOC = "J15";
+NET "S(3)" LOC = "J14";
